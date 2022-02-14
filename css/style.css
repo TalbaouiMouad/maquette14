@@ -1,0 +1,127 @@
+body{
+    background-color: beige;
+    margin: 0%;
+    position: relative;
+}
+
+header nav{
+    padding-inline: 60px;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+}
+
+nav img{
+    width: 60px;
+    height: 60px;
+}
+nav ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;   
+}
+nav ul li a{
+    padding: 15px;
+    color: black;
+    text-decoration: none; 
+}
+nav ul li a:hover{
+    text-decoration: underline;
+} 
+section{
+    margin-inline: 60px ;
+}
+#topbody{
+    position: relative;
+    padding: 0%;
+    height: 500px;
+    width: 100%;
+    
+}
+#banniere{
+    width: 100%;
+    height: 500px;
+    margin: 0%;
+    position: relative;
+    border-radius: 5px;
+}
+button{
+    float: right;
+    background-color: brown;
+    border: none;
+    color: white;
+    padding: 5px;
+    margin-right: 5px;
+}
+#pbutton{
+    height: 40px;
+    padding: 0px 10px;
+    margin: 0%;
+    padding-top:15px;
+    background-color: rgb(255, 255, 255, 0.6);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    border-radius: 5px;
+} 
+
+#articles{
+    display: flex;
+    margin-top: 10px ;
+    justify-content: space-between;
+}
+article{
+    width: 60%;
+    margin-right: 100px;
+    text-align: justify;
+}
+aside{
+    margin-right: 0%;
+    padding: 15px;
+    width: 350px;
+    height: fit-content;
+    background-color: grey;
+    text-align: justify;
+    color: white;
+    border-radius: 5px;
+
+}
+aside img{
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+aside h2{
+    text-align: center;
+}
+aside ul{
+    list-style: none;
+    display: flex;
+   justify-content: center;
+   justify-content: space-around;  
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 350px;
+    align-content:flex-end;
+}
+footer div img{
+    width: 80px;
+    height: 50px;
+    border: 8px blue solid;
+}  
+hr{
+    border: none ;
+    border-top: 2px black dotted;
+} 
+footer div{
+    height: fit-content;
+    margin-bottom: 0px;
+    margin-top: auto;
+
+}
